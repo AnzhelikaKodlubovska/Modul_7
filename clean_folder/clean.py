@@ -64,9 +64,9 @@ def sorted_files(root_path, path):
                      
            
 def main():
-   path = Path(sys.argv[1]) 
-   sorted_files(path, path)
-   
+    path = Path(sys.argv[1]) 
+    sorted_files(path, path)
+
     
 if __name__ == '__main__':
     main()

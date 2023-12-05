@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup,  find_namespace_packages
 
 setup(
     name='clean_folder',
@@ -7,11 +7,11 @@ setup(
     author='Anzhelika Kodlubovska',
     author_email='angelikagymnasticschannel@gmail.com',
     license='MIT',
-    packages=find_packages(),
+    packages= find_namespace_packages(),
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'clean-folder = clean_folder.clean_folder.clean:main'
+            'clean-folder = clean_folder.clean:main'
         ]
     },
 )
